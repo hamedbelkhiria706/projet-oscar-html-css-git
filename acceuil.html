@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site web</title>
+    <title>Mon site web</title>
 
     <link rel="stylesheet" href="./decorationacceuil.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <script
@@ -20,7 +24,85 @@
       });
     </script>
 
-    <h1>Bonjour</h1>
-    <h2>Bienvenue sur mon site</h2>
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1>Bienvenue sur Mon Site Web</h1>
+        <h2>Bienvenue dans notre famille.</h2>
+        <button
+          class="btn btn-primary"
+          data-toggle="collapse"
+          data-target="#mainAccordion"
+        >
+          En savoir plus
+        </button>
+      </div>
+      <div id="mainAccordion" class="collapse">
+        <div class="container">
+          <div class="soft-accordion">Vous allez être satisfait.</div>
+          <div class="section">
+            <p>
+              Notre site contient plein de guides pour la meilleur expérience
+              utilisateur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Section 1</h2>
+          <button
+            class="btn btn-primary"
+            data-toggle="collapse"
+            data-target="#section1Accordion"
+          >
+            En savoir plus
+          </button>
+          <div id="section1Accordion" class="collapse">
+            <div class="section">
+              <p>Les recettes tunisiennes les plus connues</p>
+            </div>
+          </div>
+          <p>Recettes tunisiennes</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Section 2</h2>
+          <button
+            class="btn btn-primary"
+            data-toggle="collapse"
+            data-target="#section2Accordion"
+          >
+            En savoir plus
+          </button>
+          <div id="section2Accordion" class="collapse">
+            <div class="section">
+              <p>Les recettes algériennes les plus connues.</p>
+            </div>
+          </div>
+          <p>Recettes algériennes</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Section 3</h2>
+          <button
+            class="btn btn-primary"
+            data-toggle="collapse"
+            data-target="#section3Accordion"
+          >
+            En savoir plus
+          </button>
+          <div id="section3Accordion" class="collapse">
+            <div class="section">
+              <p>Les recettes maghrébiennes les plus connues.</p>
+            </div>
+          </div>
+          <p>Recettes maghrébiennes</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
