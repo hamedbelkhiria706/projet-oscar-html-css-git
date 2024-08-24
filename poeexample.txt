@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My New Website</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My New Website</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <h2>About Us</h2>
+      <p>
+        We are a company dedicated to providing high-quality products and
+        services to our customers. Our team of experts is committed to
+        delivering the best possible experience.
+      </p>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+      <h2>Contact Us</h2>
+    </main>
+    <footer>
+      <p>&copy; 2023 My New Website. All rights reserved.</p>
+    </footer>
+    <script>
+      // Add your JavaScript code here
+    </script>
+  </body>
+</html>
+<section class="hero">
+  <div class="container">
+    <h1>Bienvenue sur notre site web</h1>
+    <p>Découvrez nos produits et services de qualité pour répondre à tous vos besoins.</p>
+    <a href="#" class="btn btn-primary">En Savoir Plus</a>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <h2>Nos Principales Fonctionnalités</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-cog"></i>
+          <h3>Personnalisation</h3>
+          <p>Adaptez nos solutions à vos besoins spécifiques.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-users"></i>
+          <h3>Service Client</h3>
+          <p>Notre équipe est à votre écoute pour vous accompagner.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-rocket"></i>
+          <h3>Performance</h3>
+          <p>Nos solutions vous garantissent des résultats optimaux.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <h2>Témoignages de Nos Clients</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote>
+          <p>"L'équipe a été très réactive et à l'écoute de nos besoins. Nous sommes vraiment satisfaits de leur travail."</p>
+          <cite>- John Dupont, Directeur Général</cite>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote>
+          <p>"Nous avons été impressionnés par la qualité des produits et des services. Ils ont dépassé nos attentes."</p>
+          <cite>- Sophie Leroy, Responsable des Achats</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
